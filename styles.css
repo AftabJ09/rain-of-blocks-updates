@@ -50,3 +50,22 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.download-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #0057b8;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .download-button:hover {
+    background-color: #0077cc;
+    transform: translateY(-2px);
+  }
+  
